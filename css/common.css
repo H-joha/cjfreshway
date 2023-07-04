@@ -149,7 +149,7 @@ textarea { width:100%; border:none; background: #f8f8f8; padding:15px; box-sizin
 
 /* 헤더링크 */
 #header .link_wrap {
-  background: yellowgreen;
+  min-width: 320px;
   height: 30px;
   display: flex;
   justify-content: space-between;
@@ -208,6 +208,7 @@ textarea { width:100%; border:none; background: #f8f8f8; padding:15px; box-sizin
 
 /* 헤더 메뉴 */
 #header .inner {
+  min-width: 320px;
   height: 75px;
   padding: 0 40px;
   display: flex;
@@ -269,4 +270,18 @@ textarea { width:100%; border:none; background: #f8f8f8; padding:15px; box-sizin
   display: block;
   background: url(../images/btn_menu.png) no-repeat -1px -17px / 20px 40px;
   text-indent: -9999px;
+}
+
+
+
+
+/* 컨테이너 공통 */
+.main_tit .tit {
+  font-size: 20px;
+  font-weight: 300;
+}
+.main_tit .txt {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
 }

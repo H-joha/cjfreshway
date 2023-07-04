@@ -2,7 +2,6 @@
 
 /* 섹션01 : 메인비디오 */
 .main_video {
-  width: 100vw;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -38,3 +37,68 @@
   background: url(../images/btn_pause.png) no-repeat 50% 50% / 100%;
   text-indent: -9999px;
 }
+
+/* 섹션02 : 메인 비즈니스 */
+.main_business {
+  max-width: 1280px;
+  padding: 150px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* 탭메뉴 */
+.main_business .tab { 
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+.main_business .tab li {
+  line-height: 20px;
+  margin: 0 4px;
+  padding: 10px 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+}
+.main_business .tab .active {
+  background: #075d46;
+  color: #fff;
+}
+
+/* 스와이퍼 */
+.main_business .slide {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.main_business .slide .img_wrap {
+  width: 840px;
+  border-radius: 40px;
+  overflow: hidden;
+}
+.main_business .slide .txt_wrap {
+  width: 430px;
+  padding: 40px 40px;
+  border-radius: 30px;
+  background: #f6f8f8;
+}
+.main_business .slide .txt_wrap .number {
+  display: block;
+  height: 330px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #075d46;
+  letter-spacing: -0.03em;
+}
+.main_business .slide .txt_wrap .name {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 700;
+  color: #075d46;
+  letter-spacing: -0.03em;
+}
+.main_business .slide .txt_wrap .txt {
+  font-weight: 300;
+}
+
