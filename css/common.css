@@ -139,7 +139,7 @@ textarea { width:100%; border:none; background: #f8f8f8; padding:15px; box-sizin
 
 /* 헤더 */
 #header {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   z-index: 9999;
@@ -276,9 +276,16 @@ textarea { width:100%; border:none; background: #f8f8f8; padding:15px; box-sizin
 
 
 /* 컨테이너 공통 */
+section .inner {
+  max-width: 1280px;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
 .main_tit .tit {
   font-size: 20px;
   font-weight: 300;
+  color: #ff8d1a;
 }
 .main_tit .txt {
   font-size: 60px;
