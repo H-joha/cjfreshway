@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+/* 섹션01 : 메인비디오 */
+.main_video {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.main_video video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.main_video .btn_wrap {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.main_video .btn_wrap .btn_pause {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border: none;
+  background: url(../images/btn_pause.png) no-repeat 50% 50% / 100%;
+  text-indent: -9999px;
+}
