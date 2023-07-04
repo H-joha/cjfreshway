@@ -20,7 +20,7 @@
 .main_video .btn_wrap {
   position: absolute;
   left: 50%;
-  bottom: 100px;
+  bottom: 70px;
   transform: translateX(-50%);
   width: 70px;
   height: 70px;
