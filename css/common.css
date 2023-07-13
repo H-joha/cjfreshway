@@ -274,10 +274,112 @@ textarea { width:100%; border:none; background: #f8f8f8; padding:15px; box-sizin
 
 
 
+/* 푸터 */
+#footer .inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* 푸터 리스트 */
+#footer .f_list { background: #075d46; }
+#footer .f_list .inner { position: relative; }
+#footer .f_list .policy { display: flex; }
+#footer .f_list .policy li { margin-right: 40px; }
+#footer .f_list .policy li>a {
+  line-height: 140px;
+  font-size: 18px;
+  color: #fff;
+}
+#footer .f_list .policy li:last-child>a:after{
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-left: 7px;
+  background: url(../images/ico_link.png) no-repeat right 0 / 13px;
+}
+#footer .f_list .policy strong { font-weight: 700; }
+
+/* 패밀리사이트 */
+#footer .f_list .family_site {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#footer .f_list .family_site .selectbox a {
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+  width: 150px;
+  line-height: 29px;
+  padding: 0 5px;
+  color: #fff;
+}
+
+/* 푸터 nav  */
+#footer .f_nav .inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+#footer .f_nav .slogan {
+  line-height: 1.2;
+  font-size: 36px;
+  font-weight: 700;
+  color: #e5e5e5;
+  letter-spacing: -0.03em;
+}
+
+#footer .f_nav .depth01 { display: flex; }
+#footer .f_nav .depth01>li { margin-left: 65px; }
+#footer .f_nav .depth01>li>a { font-weight: 700; }
+#footer .f_nav .depth02 { padding-top: 22px; }
+#footer .f_nav .depth02>li { padding-bottom: 18px; }
+#footer .f_nav .depth02>li>a { 
+  font-size: 14px;
+  font-weight: 700; 
+  color: #999;
+}
+
+/* 푸터 정보 */
+#footer .f_info { border-top: 1px solid #ececec; }
+#footer .f_info .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+}
+#footer .f_info .f_logo { width: 131px; }
+
+#footer .f_info .f_address p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #999;
+}
+#footer .f_info .f_address p + p { margin-top: 6px; }
+#footer .f_info .f_address p span { margin-right: 6px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 컨테이너 공통 */
 section .inner {
   max-width: 1280px;
+  min-width: 320px;
   padding: 150px 0;
   margin: 0 auto;
 }
